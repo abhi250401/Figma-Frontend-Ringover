@@ -3,9 +3,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+![Screenshot 2022-02-06 034044](https://user-images.githubusercontent.com/56989605/152660673-69a86c45-48f5-42a0-bb6f-63e2d8be3828.png)
+
+![image](https://user-images.githubusercontent.com/56989605/152660665-b5fb051e-4ca5-474d-a109-6d5cc28e3750.png)
 
 In the project directory, you can run:
-
+Demo :
+https://pensive-neumann-9be48e.netlify.app/
 ### `npm start`
 
 Runs the app in the development mode.\
