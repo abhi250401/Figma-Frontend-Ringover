@@ -1,0 +1,58 @@
+$secondaryColor: #6f8c94;
+
+.contact-card {
+  .heading {
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h1 {
+      width: fit-content;
+      font-size: 1.5rem;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 8px;
+      }
+    }
+  }
+  h4 {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    color: $secondaryColor;
+  }
+  p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  a {
+    color: #41bcc3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .icons {
+    margin-top: 20px;
+    div {
+      display: flex;
+      justify-content: center;
+      padding: 8px;
+
+      svg {
+        font-size: 22px;
+        color: #41bcc3;
+        margin-right: 5px;
+        margin-left: 5px;
+      }
+    }
+    justify-content: center;
+  }
+}

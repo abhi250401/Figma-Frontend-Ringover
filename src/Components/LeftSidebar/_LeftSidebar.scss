@@ -1,0 +1,33 @@
+.left-sidebar {
+  flex: 0.25;
+  border-right: 1px solid #d3d3d3;
+  padding: 2em 1.4em;
+}
+.activity {
+  display: flex;
+  color: #41bcc3;
+  font-size: 4rem;
+  align-items: center;
+  margin-top: 4rem;
+  .activity-menu {
+    display: flex;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid #41bcc3;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 1.4rem;
+
+    justify-content: space-evenly;
+    color: #41bcc3;
+
+    svg {
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  }
+}

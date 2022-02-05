@@ -1,0 +1,34 @@
+$colorbtn: #08464b;
+.additional-info {
+  margin-top: 2em;
+  .buttons {
+    padding: 20px;
+    padding-left: 0px;
+    button {
+      padding: 6px;
+
+      margin-right: 6px;
+      border: 1px solid #08464b;
+      border-radius: 5px;
+      box-sizing: border-box;
+      color: #08464b;
+      background-color: white;
+    }
+  }
+}
+.info {
+  margin-top: 10px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  svg {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

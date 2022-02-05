@@ -1,0 +1,18 @@
+@import "./Components/Navbar/Navbar"; 
+@import "./Components/LeftSidebar/LeftSidebar";
+@import "./Components/RightSidebar/RightSidebar";
+@import "./Components/Main/Main";
+@import "./Components/LeftSidebar/ContactCard/ContactCard";
+@import "./Components/LeftSidebar/AdditionalInfo/AdditionalInfo";
+*{
+    margin:0 ;
+    padding:0;
+}
+body{
+margin-left: auto;
+margin-right: auto;
+} 
+.mainContent{
+    display: flex;
+    height: 90vh;
+}

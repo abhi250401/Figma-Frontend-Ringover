@@ -1,0 +1,47 @@
+$primaryColor:#08262E ;
+.navbar{
+   background: $primaryColor;
+    height: 8vh;
+    color:white ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    div {
+       display: flex;
+        align-items: center;
+        img{
+           padding-right: 6px;
+        }
+    }
+    .search-container{
+     border-radius: 4.5px;
+     padding:2px;
+      background: #203E46;
+         input{
+            padding: 6px;
+             width:30vw;
+            border: none;
+            background: #203E46;
+        }   
+         img{
+            float: right;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+         }
+        
+    }
+    .profile{
+       display: flex;
+    
+    
+      img{
+         margin-right: 8px;
+         float: right;
+         border-radius: 50%;
+         border: none;
+         cursor: pointer;
+      }
+    }
+
+}
